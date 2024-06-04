@@ -1,0 +1,43 @@
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+.buttons-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-button {
+  margin-right: 8px; /* Adjust spacing between buttons */
+  margin-bottom: 8px; /* For wrapping buttons on smaller screens */
+  border: 1px solid #007bff; /* Blue outline */
+  background-color: white;
+  color: #007bff;
+
+}
+.custom-button2 {
+  margin-right: 8px; /* Adjust spacing between buttons */
+  margin-bottom: 8px; /* For wrapping buttons on smaller screens */
+  border: 1px solid #007bff; /* Blue outline */
+  color: #fff;
+
+}
+.custom-buttonn {
+  margin-right: 8px; /* Adjust spacing between buttons */
+  margin-bottom: 8px; /* For wrapping buttons on smaller screens */
+  background-color: white;
+text-decoration: none;
+}
+.view-all-button1 {
+  background-color: white;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-all-button:hover {
+  background-color: #007bff;
+  color: white;
+}

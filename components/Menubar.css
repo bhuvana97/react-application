@@ -1,0 +1,23 @@
+/* MenuBar.css */
+.rounded-searchbar {
+    border-radius: 50px !important;
+}
+
+.p-menubar {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: none;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+    color: #333333;
+}
+
+.p-button-text .pi {
+    font-size: 1.2rem;
+}
+
+.p-button-rounded.p-button-outlined {
+    border-radius: 50px !important;
+    padding: 0.5rem 1.5rem;
+}

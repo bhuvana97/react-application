@@ -1,0 +1,59 @@
+.custom-navbar {
+    height: 50px; /* Adjust the height as needed */
+    width: 100%;  /* Ensure the navbar takes full width */
+  }
+  
+  .custom-navbar .navbar-brand img {
+    height: 100px; /* Keep the image height the same */
+    width: 100px;  /* Keep the image width the same */
+  }
+  
+
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  .nav-link {
+    color: #000;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+
+  
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+.custom-button {
+  margin-right: 8px; /* Adjust spacing between buttons */
+  margin-bottom: 8px; /* For wrapping buttons on smaller screens */
+}
+
+.view-all-button {
+  margin-left: auto; /* Pushes the button to the right */
+  background-color: white;
+  border: 1px solid #007bff; /* Blue outline */
+  color: #007bff;
+}
+
+.view-all-button:hover {
+  background-color: #007bff;
+  color: white;
+}
